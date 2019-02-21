@@ -20,11 +20,11 @@ npm start
 A simple Dashboard in React inspired in [Paper Dashboard React](https://demos.creative-tim.com/paper-dashboard-react/#/dashboard) that shows the information of the database that is fed by Luma Bot.
 
 ## How it works?
-I open an Observable with ```<FirebaseDatabaseProvider>``` that waits for changes in the database. 
+It open an Observable with ```<FirebaseDatabaseProvider>``` that waits for changes in the database. 
 
 For every time that it's checks, It adds the informations embedded in "Pessoas" (```Pessoas.jsx```) component in an array named ```pessoas```.
 
-After that, It can render all components of the array in a ```<CardBody>```.
+After that, It renders all components of the array in a ```<CardBody>```.
 
 ## Services
 - Database: Firebase Real Time Database 🔥
