@@ -104,7 +104,7 @@ class Dashboard extends React.Component {
                         }));
 
                         for (let i = 0; i < keys.length; i++) {
-                          let pessoa = data.value[keys[i]]
+                          let pessoa = data.value[keys[i]];
                           let nome = pessoa.nome;
                           let cpf = pessoa.cpf;
                           let telefone = pessoa.telefone;
@@ -118,8 +118,6 @@ class Dashboard extends React.Component {
 
 
                         }
-                        
-                        console.log("foi!");
                       }
 
                       return null;

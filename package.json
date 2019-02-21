@@ -1,8 +1,7 @@
 {
-  "name": "paper-dashboard-react",
+  "name": "Luma Assistant",
   "version": "1.0.0",
-  "private": true,
-  "homepage": "https://creativetimofficial.github.io/paper-dashboard-react/#/dashboard",
+  "private": false,
   "dependencies": {
     "@react-firebase/database": "^0.3.10",
     "@types/react": "16.4.16",
